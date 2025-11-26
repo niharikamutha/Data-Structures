@@ -54,7 +54,7 @@
     }
  }
 
-void post_order()
+void post_order(NODE root)
 {
     if(root!=NULL)
     {
@@ -92,3 +92,4 @@ int main()
     }
     return 0;
 }
+
